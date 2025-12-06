@@ -1,41 +1,33 @@
-### Managing Requirements in Python
+# Learning about python with flask 
 
-In Python, **requirements** refer to a list of dependencies (libraries or packages) that a project needs to function properly. These dependencies are typically managed using a `requirements.txt` file. Below is a guide to help you understand and manage requirements effectively.
+## Learnings and Curriculum
 
----
+Here is an overview of the technologies and skills I developed during this project, based on the course curriculum.
 
-#### 📄 Creating a `requirements.txt` File
-- This file lists all the Python packages your project depends on, along with their versions (optional).
-- Example:
-  ```
-  flask==2.3.2
-  requests>=2.28.0
-  numpy
-  ```
+"In this project not all lessons were completed; I focused primarily on the modules relevant to [flask, container image]."
 
----
 
-#### 🔧 Version Specifiers
-- You can specify versions in different ways:
-  - `==` (exact version): `flask==2.3.2`
-  - `>=` (minimum version): `requests>=2.28.0`
-  - `<` (less than): `numpy<1.25.0`
-  - No specifier: Installs the latest version.
+### Curriculum / Topics Covered
 
----
+The course promised to cover the following topics:
 
-#### 📦 Installing Dependencies
-- To install all the packages listed in `requirements.txt`, use the following command:
-  ```bash
-  pip install -r requirements.txt
-  ```
+* Connect web or mobile applications to databases and servers via REST APIs
+* Create secure and reliable REST APIs which include authentication, deployments, and database migrations
+* Understand the different layers of a web server and how web applications interact with each other
+* Handle seamless user authentication with advanced features like token refresh
+* Handle log-outs and prevent abuse in your REST APIs with JWT blacklisting
+* Develop professional-grade REST APIs with expert instruction
+* Optimize performance of your REST APIs using task queues and background workers
 
----
 
-#### 🛠️ Generating a `requirements.txt` File
-- If you already have a virtual environment with installed packages, you can generate the file using:
-  ```bash
-  pip freeze > requirements.txt
-  ```
-- This will include all installed packages and their versions.
+### Key Takeaways / Main Learnings
+
+During this process, I specifically solidified my knowledge in:
+
+*   ...
+
+
+### References
+
+* [Udemy - REST APIs with Flask and Python in 2025](https://www.udemy.com/course/rest-api-flask-and-python/?srsltid=AfmBOooFiAjRSBwqcvVcBTPnVpGYFUgVRuRf9asSmt7zvxcwIp_K99Vq)
 
